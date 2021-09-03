@@ -3250,6 +3250,7 @@ set ora_compatible \"$pg_oracompat\" ;#Postgres Plus Oracle Compatible Schema
 set pg_storedprocs \"$pg_storedprocs\" ;#Postgres v11 Stored Procedures
 set host \"$pg_host\" ;# Address of the server hosting PostgreSQL
 set port \"$pg_port\" ;# Port of the PostgreSQL server
+set sslmode \"$pg_sslmode\" ;# SSLMode of the PostgreSQL Server
 set superuser \"$pg_superuser\" ;# Superuser privilege user
 set superuser_password \"$pg_superuserpass\" ;# Password for Superuser
 set default_database \"$pg_defaultdbase\" ;# Default Database for Superuser
